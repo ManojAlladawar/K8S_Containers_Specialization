@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: "Mypod1"
+    label:
+        dc: IN
+        team: team1
+spec:
+    Containers:
+    - name: "myc1"
+      image: httpd

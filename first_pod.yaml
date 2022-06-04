@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  template:
+  
+  name: "mypod1"
+  labels:
+    region: IN
+   
+
+spec:
+  containers:
+  - name: "myc2"
+    image: "httpd"
+    env:
+    - name: x
+      value: "5"

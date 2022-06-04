@@ -1,0 +1,11 @@
+for crearing the dockerfile 
+
+first make any folder
+
+vim Dcokerfile
+
+after that keep ur code in this file
+FROM centos
+RUn yum install httpd
+
+last docker build -t img_name <folder in which dockerfile as it is recognize automaicallu>

@@ -1,0 +1,4 @@
+for making customization 
+
+create the rs of both mysql for storing the db and php wordpress as client comes first hit to the 
+wordpress svc and for getting data from the mysql there is also one svc
